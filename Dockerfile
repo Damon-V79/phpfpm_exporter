@@ -1,5 +1,3 @@
-# Build: $ docker build --rm -t phpfpm_exporter:0.5.0-alpine3.11 .
-
 FROM golang:1.14.2-alpine3.11 AS build
 RUN set -ex; \
     apk update; \
